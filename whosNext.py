@@ -17,7 +17,7 @@ names = ["Evan", "Rey", "Maya", "Jaydriel", "Jaxon", "Ethan", "Kristina"]
 
 while names:
     name = random.choice(names)
-    print(f"Our next presenters will be: {name}'s group.")
+    print(f"Our next presenters will be: {name}'s group. \n")
     names.remove(name)
     if names:
         input("Press Enter to pick the next name...")
